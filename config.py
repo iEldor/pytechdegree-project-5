@@ -1,4 +1,4 @@
 import os
 
 class Config(object):
-    SECRET_KY = os.environ.get('SECRET_KEY') or 'secret string'
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret string'
